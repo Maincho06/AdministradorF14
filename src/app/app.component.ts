@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'EscuelaF14';
+  showFiller = false;
+  click() {
+    console.log('Menu');
+  }
 }
+
+
+
