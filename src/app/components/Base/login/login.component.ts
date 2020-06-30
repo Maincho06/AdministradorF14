@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
-import { UsuarioLogin } from '../../models/usuario_model';
 import { Router } from '@angular/router';
+import { UsuarioLogin } from 'src/app/models/usuario_model';
 
 @Component({
   selector: 'app-login',
